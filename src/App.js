@@ -9,7 +9,10 @@ class App extends Component {
     super(props)
     this.state = {
       filter: '',
-      clicked: false
+      clicked: false,
+      trails: [
+        { name: 'Apex', region: 'Front Range', location: 'Golden, CO', status: 'Closed', reason: 'snow/wet/mud' },
+        {},]
     }
   }
 

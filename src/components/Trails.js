@@ -11,12 +11,14 @@ import '../App.css'
 const Trails = ({ }) => {
     return (
         <div className="trails">
-            <h1>asdfasdf</h1>
             <div className="trails-toolbar">
                 <p>Status</p>
                 <p>Name</p>
                 <p>Location</p>
                 <p>Learn More</p>
+            </div>
+            <div className="trails-status">
+                {}
             </div>
         </div>
     );
