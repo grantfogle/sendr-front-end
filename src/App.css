@@ -9,6 +9,8 @@
 }
 
 .filter {
+  display: block;
+  position: absolute;
   color:white;
   background-color:#2980b9;
   border-color: #2980b9;
@@ -18,5 +20,23 @@
 }
 
 .filter-list {
-  
+  background-color: #fff;
+  list-style: none;
+  margin-top: 25em;
+  width: 600px;
+  padding: 0;
+}
+
+.filter-list li {
+  font-size: 2em;
+  width: 100%;
+  box-sizing:border-box;
+  margin: 0 auto;
+  display: inline-block;
+  padding-left: 2em;
+}
+
+.filter-list li:hover {
+  background-color: #f39c12;
+  font-size: 2em;
 }
