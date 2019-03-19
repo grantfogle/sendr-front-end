@@ -11,8 +11,11 @@ class App extends Component {
       filter: '',
       clicked: false,
       trails: [
-        { name: 'Apex', region: 'Front Range', location: 'Golden, CO', status: 'Closed', reason: 'snow/wet/mud' },
-        {},]
+        { id: '1', name: 'Apex', region: 'Front Range', location: 'Golden, CO', status: 'Closed', reason: 'snow/wet/mud', trailDay: 'March 25th, 2019' },
+        { id: '2', name: 'Apex', region: 'Front Range', location: 'Golden, CO', status: 'Closed', reason: 'snow/wet/mud', trailDay: 'March 25th, 2019' },
+        { id: '3', name: 'Apex', region: 'Front Range', location: 'Golden, CO', status: 'Closed', reason: 'snow/wet/mud', trailDay: 'March 25th, 2019' },
+        { id: '4', name: 'Apex', region: 'Front Range', location: 'Golden, CO', status: 'Closed', reason: 'snow/wet/mud', trailDay: 'March 25th, 2019' }
+      ]
     }
   }
 
@@ -24,7 +27,7 @@ class App extends Component {
     return (
       <div className="App">
         <Filter filter={this.state.filter} clicked={this.state.clicked} clickedFilter={this.clickedFilter} />
-        <Trails />
+        <Trails trails={this.state.trails} />
       </div>
     );
   }

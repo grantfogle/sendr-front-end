@@ -1,14 +1,22 @@
 import React from 'react';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Dropdown from 'react-bootstrap/Dropdown';
-// import Trail from './Trail';
+import Trail from './Trail';
 import '../App.css'
 
-// const generateTrails = () => {
-//     return filterTrails.map(trail => { <Trail name={name} status={status} location={location} /> })
-// }
+const generateTrails = (trails) => {
+    return trails.map(trail => {
+        return (<Trail trail={trail} />)
+    })
+}
 
-const Trails = ({ }) => {
+
+const Trails = ({ trails }) => {
+
+    // function generateTrails() {
+    //     return trails.map(trail => { <Trail trail={trail} /> });
+    // }
+
     return (
         <div className="trails">
             <div className="trails-toolbar">
@@ -18,7 +26,7 @@ const Trails = ({ }) => {
                 <p>Learn More</p>
             </div>
             <div className="trails-status">
-                {}
+                {generateTrails(trails)}
             </div>
         </div>
     );
