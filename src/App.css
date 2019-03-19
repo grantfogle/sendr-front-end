@@ -40,3 +40,9 @@
   background-color: #f39c12;
   font-size: 2em;
 }
+
+.trails {
+  height: 60vh;
+  width: 100vw;
+  background-color: #fff;
+}
