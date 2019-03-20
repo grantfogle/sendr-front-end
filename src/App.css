@@ -52,7 +52,7 @@
   height: 5vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 0 2em;
   background-color: #1abc9c;
   color: white;

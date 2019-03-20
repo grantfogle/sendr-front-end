@@ -14,7 +14,7 @@ class App extends Component {
       filter: '',
       clicked: false,
       trails: [
-        { id: '1', name: 'Apex', region: 'Front Range', location: 'Golden, CO', status: 'Closed', reason: 'snow/wet/mud', trailDay: 'March 25th, 2019' },
+        { id: '1', name: 'Apex', region: 'Front Range', location: 'Golden, CO', status: 'Open', reason: 'snow/wet/mud', trailDay: 'March 25th, 2019' },
         { id: '2', name: 'Apex', region: 'Front Range', location: 'Golden, CO', status: 'Closed', reason: 'snow/wet/mud', trailDay: 'March 25th, 2019' },
         { id: '3', name: 'Apex', region: 'Front Range', location: 'Golden, CO', status: 'Closed', reason: 'snow/wet/mud', trailDay: 'March 25th, 2019' },
         { id: '4', name: 'Apex', region: 'Front Range', location: 'Golden, CO', status: 'Closed', reason: 'snow/wet/mud', trailDay: 'March 25th, 2019' }

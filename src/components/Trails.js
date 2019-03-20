@@ -22,6 +22,7 @@ const Trails = ({ trails }) => {
             <div className="trails-toolbar">
                 <p>Status</p>
                 <p>Name</p>
+                <p>Region</p>
                 <p>Location</p>
                 <p>Learn More</p>
             </div>
