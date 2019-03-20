@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Filter from './components/Filter';
 import Trails from './components/Trails';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 
 class App extends Component {
@@ -19,11 +22,14 @@ class App extends Component {
     }
   }
 
+
   clickedFilter = () => {
     return this.setState({ clicked: !this.state.clicked });
   }
 
   render() {
+    library.add(faCircle);
+
     return (
       <div className="App">
         <Filter filter={this.state.filter} clicked={this.state.clicked} clickedFilter={this.clickedFilter} />

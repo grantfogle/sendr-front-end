@@ -67,3 +67,7 @@
   flex-direction: row;
   justify-content: space-evenly;
 }
+.icon {
+  color: green;
+  font-size: 2em;
+}
