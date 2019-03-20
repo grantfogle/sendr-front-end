@@ -29,7 +29,6 @@ class App extends Component {
 
   render() {
     library.add(faCircle);
-
     return (
       <div className="App">
         <Filter filter={this.state.filter} clicked={this.state.clicked} clickedFilter={this.clickedFilter} />

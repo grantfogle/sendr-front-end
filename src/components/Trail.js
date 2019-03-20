@@ -9,8 +9,9 @@ const Trail = ({ trail }) => {
         <div className='trail'>
             {/*id*/}
             {/*icon*/}
-            <FontAwesomeIcon icon='faTriangle' className='icon' />
-            <div className='trail-name'>{name}</div>
+            {/* <FontAwesomeIcon icon='faCircle' className='icon' style={status === "closed" ? { backgroundColor: 'red' } : { backgroundColor: "green" }} /> */}
+            <FontAwesomeIcon icon='faCircle' className='icon' />
+            < div className='trail-name'>{name}</div>
             {/*name*/}
             <div className='trail-region'>{region}</div>
             {/*region*/}
@@ -21,7 +22,7 @@ const Trail = ({ trail }) => {
             {/*reason for closure*/}
             {/*weather - five day forecast*/}
             {/*next trail date*/}
-        </div>
+        </div >
     );
 }
 
