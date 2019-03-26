@@ -2,6 +2,9 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
+// set up backend tomorrow
+// trails for all regions
+// add admin capabilitites
 
 const Trail = ({ trail }) => {
     const { location, name, region, status } = trail;
